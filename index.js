@@ -1,6 +1,8 @@
-const data = require('./lib/data');
+const data = require('./lib/data'),
+	service = require('./lib/service')
+;
 
-data.get(raw => {
+data.get(service(), raw => {
 	let data = JSON.parse(raw || '{}'),
 		list = (data || {}).list || []
 	;
