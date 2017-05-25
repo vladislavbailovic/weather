@@ -1,0 +1,14 @@
+{
+  "name": "weather",
+  "version": "0.0.1",
+  "description": "Weather info parser",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "vladislavbailovic@gmail.com",
+  "license": "BSD-2-Clause",
+  "devDependencies": {
+    "dotenv": "^4.0.0"
+  }
+}
